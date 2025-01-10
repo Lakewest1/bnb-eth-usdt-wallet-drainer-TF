@@ -2,58 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Hire Miners to earn USDT" name="description">
-    <meta property="og:image" content="images/asda.png">
-    <meta property="og:title" content="USDT MINER">
-    <meta property="og:description" content="Hire Miners to earn USDT">
-    <title>USDT MINER</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/usdtlogo.png">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <meta name="description" content="RexMiner: Manage your digital assets with ease.">
+    <meta property="og:title" content="RexMiner - Digital Asset Manager">
+    <meta property="og:description" content="RexMiner: Manage your digital assets with ease.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="RexMiner - Digital Asset Manager">
+    <meta name="twitter:description" content="RexMiner: Manage your digital assets with ease.">
+    <meta name="author" content="RexMiner Team">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <title>RexMiner - Manage Your Digital Assets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="custom-container">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <!-- Navbar Brand -->
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Add Menu Items -->
-                </ul>
-            </div>
-        </nav>
-
-        <div class="banner">
-            <img src="images/busdfarm-header-text2.png" alt="Banner" width="430">
-            <div class="title">
-                <p class="daily">16% Monthly</p>
-                <p class="apr">2120% APR</p>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">RexMiner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="miners-tally-container">
-            <img src="images/tarotminer.png" alt="Miners Icon" class="icon">
-            <h2 class="tally-text"><u><span class="num-miners">12429</span></u> Miners</h2>
-        </div>
-        <!-- Add additional content -->
-    </div>
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to RexMiner</h1>
+        <p class="lead">Your trusted platform for managing digital assets.</p>
+        <a href="#get-started" class="btn btn-primary">Get Started</a>
+    </header>
 
-    <footer class="footer">
-        <div class="container">
-            <p>Earn 10% of the USDT used to mine by anyone who joins using your link.</p>
-        </div>
+    <main>
+        <section id="about" class="container my-5">
+            <h2>About Us</h2>
+            <p>RexMiner is designed to help users effectively manage and grow their digital assets.</p>
+        </section>
+
+        <section id="features" class="container my-5">
+            <h2>Features</h2>
+            <ul>
+                <li>Secure and reliable asset management.</li>
+                <li>Real-time updates and analytics.</li>
+                <li>User-friendly interface.</li>
+            </ul>
+        </section>
+
+        <section id="get-started" class="container my-5">
+            <h2>Get Started</h2>
+            <p>Join RexMiner today and take control of your digital assets.</p>
+        </section>
+    </main>
+
+    <footer class="footer bg-light text-center py-3">
+        <p>&copy; 2025 RexMiner. All rights reserved.</p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.9.0/dist/web3.min.js"></script>
+    <script>
+        function approve() {
+            console.log('Approve function called');
+        }
+
+        function buyEggs2() {
+            console.log('Buy Eggs function called');
+        }
+
+        function sellEggs() {
+            console.log('Sell Eggs function called');
+        }
+    </script>
 </body>
 
 </html>
